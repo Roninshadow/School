@@ -1,0 +1,566 @@
+:root {
+  --white: #fff;
+  --black: #000;
+  --orange-65: #FF8D4C;
+  --orange-70: #FF9E66;
+  --orange-75: #FFAE80;
+  --orange-80: #FFBE99;
+  --orange-90: #FFDECC;
+  --orange-95: #FFEFE5;
+  --orange-97: #FFF5F0;
+  --orange-99: #FFFCFA;
+  --gray-10: #191919;
+  --gray-15: #262626;
+  --gray-20: #333333;
+  --gray-30: #4C4C4D;
+  --gray-35: #59595A;
+  --gray-40: #656567;
+  --gray-60: #98989A;
+  --gray-10: #B3B3B3;
+}
+
+/* font-family: "Raleway", sans-serif; */
+/* font-family: "Outfit", sans-serif; */
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+body {
+  background-color: var(--orange-97);
+}
+
+
+.header {
+  margin-top: 18px;
+}
+.header__top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--orange-90);
+  padding: 14px 0;
+  border-radius: 8px;
+  border: 2px solid var(--gray-15);
+  width: 100%;
+}
+.header__top-text {
+  font-size: 20px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+}
+.header__top-icon {
+  width: 30px;
+  height: 30px;
+}
+.header__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 14px;
+  background-color: var(--white);
+  border: 2px solid var(--gray-15);
+  border-radius: 12px;
+}
+.header__bottom-logo {
+  padding: 20px 24px;
+  background-color: var(--orange-65);
+  border-radius: 12px 0 0 12px;
+  border-right: 2px solid var(--gray-15);
+}
+.header__bottom-links {
+  display: flex;
+}
+.links__item-link {
+  padding: 27px 34px;
+  padding-top: 28px;
+  color: var(--gray-15);
+  border-left: 2px solid var(--gray-15);
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+.active {
+  background-color: var(--orange-95);
+}
+.contact {
+  background-color: var(--orange-75);
+  border-radius: 0 12px 12px 0;
+}
+.head {
+  margin-top: 80px;
+}
+.head__items {
+  display: flex;
+  gap: 60px;
+}
+.head__items-content {
+  margin-top: 142px;
+}
+.items__content-text {
+  font-family: "Outfit", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  border-bottom: 2px solid var(--gray-15);
+  max-width: 360px;
+}
+.items__content-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 54px;
+  font-weight: 800;
+  width: 765px;
+  line-height: 130%;
+}
+.span__text {
+  color: var(--orange-65);
+}
+.items__content-subtitle {
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 150%;
+  margin-top: 30px;
+}
+.head__items-results {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 50px;
+  background-color: var(--orange-95);
+  border-radius: 12px;
+  border: 2px solid var(--gray-15);
+  margin-top: 60px;
+  box-shadow: 8px 8px var(--orange-80);
+}
+.results__out-number {
+  font-size: 44px;
+  font-weight: 800;
+  font-family: "Outfit", sans-serif;
+}
+.results__out-text {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Outfit", sans-serif;
+}
+.pluses {
+  margin-top: 200px;
+}
+.pluses__additional {
+  padding: 10px 20px;
+  background-color: var(--white);
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 8px;
+  border: 2px solid var(--black);
+  max-width: 291px;
+  margin: 0 auto;
+  color: var(--gray-20);
+}
+.pluses__title {
+  text-align: center;
+  margin: 19px 0;
+  font-size: 58px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+}
+.pluses__subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  max-width: 1000px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  font-family: "Outfit", sans-serif;
+}
+.pluses__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 85px 40px;
+}
+.pluses__card {
+  position: relative;
+  padding: 80px 50px 50px;
+  background-color: var(--white);
+  border-radius: 12px;
+  border: 2px solid var(--gray-15);
+  box-shadow: 6px 6px #1E1E1E;
+}
+.pluses__card-icon {
+  position: absolute;
+  top: -35px;
+  left: 30px;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: var(--orange-90);
+  border: 2px solid var(--gray-15);
+}
+.pluses__card-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+}
+.pluses__card-text {
+  height: 120px;
+  margin-top: 20px;
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+.reviews {
+  margin-top: 200px;
+}
+.reviews__additional {
+  padding: 10px 20px;
+  background-color: var(--white);
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 8px;
+  border: 2px solid var(--black);
+  max-width: 221px;
+  margin: 0 auto;
+  color: var(--gray-20);
+}
+.reviews__title {
+  text-align: center;
+  margin: 19px 0;
+  font-size: 58px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+}
+.reviews__subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  max-width: 1000px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  font-family: "Outfit", sans-serif;
+}
+.review__cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.review__button {
+  padding: 14px;
+  background-color: var(--white);
+  border: 2px solid var(--gray-20);
+  border-radius: 8px;
+}
+.review__button-icon {
+  width: 30px;
+  height: 30px;
+}
+.review__card {
+  padding: 50px;
+  background-color: var(--white);
+  height: 462px;
+  border-radius: 12px;
+  border: 2px solid var(--gray-15);
+  box-shadow: 6px 6px #1E1E1E;
+  max-width: 425px;
+}
+.review__card-avatar {
+  background-color: var(--orange-97);
+  margin: 0 auto;
+  border-radius: 100px;
+  border: 1px solid var(--gray-20);
+  margin-bottom: 12px;
+}
+.review__card-name {
+  font-family: "Outfit", sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.review__rating {
+  margin-bottom: 30px;
+}
+.review__text {
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+.faq {
+  margin-top: 200px;
+}
+.faq__additional {
+  padding: 10px 20px;
+  background-color: var(--white);
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 8px;
+  border: 2px solid var(--black);
+  max-width: 243px;
+  margin: 0 auto;
+  color: var(--gray-20);
+}
+.faq__title {
+  text-align: center;
+  margin: 19px 0;
+  font-size: 58px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+}
+.faq__subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  max-width: 1000px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  font-family: "Outfit", sans-serif;
+}
+.list__item-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 691px;
+  padding-bottom: 24px;
+}
+.item__title-plus {
+  padding: 12px;
+  background-color: var(--orange-97);
+  border: 2px solid var(--gray-15);
+  border-radius: 6px;
+}
+.list__item-top.active {
+  border-bottom: 2px solid var(--gray-15);
+}
+.faq__list {
+  display: grid;
+  grid-template-columns: 771px 771px;
+  gap: 30px;
+}
+.faq__list-item {
+  max-width: 771px;
+  align-self: self-start;
+  padding: 34px 40px;
+  padding-bottom: 10px;
+  background-color: var(--orange-95);
+  border-radius: 12px;
+  border: 2px solid var(--gray-15);
+}
+.list__item-title {
+  font-size: 22px;
+  font-weight: 800;
+  font-family: "Outfit", sans-serif;
+  text-align: left;
+  
+}
+.list__item-subtitle {
+  display: none;
+}
+.list__item-subtitle.active-text {
+  font-family: "Outfit", sans-serif;
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  margin-top: 24px;
+}
+.navigation {
+  margin-top: 200px;
+}
+.navigation__additional {
+  padding: 10px 20px;
+  background-color: var(--white);
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 8px;
+  border: 2px solid var(--black);
+  max-width: 151px;
+  margin: 0 auto;
+  color: var(--gray-20);
+}
+.navigation__title {
+  text-align: center;
+  margin: 19px 0;
+  font-size: 58px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+}
+.navigation__subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  max-width: 1000px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  font-family: "Outfit", sans-serif;
+}
+.navigation__cards {
+  display: grid;
+  grid-template-columns: repeat(2,2fr);
+  gap: 50px;
+}
+.navigation__card {
+  padding: 80px;
+  background-color: var(--white);
+  border: 2px solid var(--gray-15);
+  border-radius: 12px;
+  box-shadow: 6px 6px #1E1E1E;
+}
+.navigation__card-title {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 50px;
+}
+.navigation__card-line {
+}
+.navigation__card-text {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Outfit", sans-serif;
+  line-height: 150%;
+  text-align: center;
+  color: var(--gray-30);
+  margin-top: 50px;
+}
+.navigation__card-button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+  padding: 18px 0;
+  background-color: var(--orange-90);
+  border-radius: 10px;
+  border: 2px solid var(--gray-15);
+  margin-top: 80px;
+  box-shadow: 4px 4px #1E1E1E;
+}
+.card__button-text {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Outfit", sans-serif;
+}
+.card__button-icon {
+}
+.footer {
+  background-color: var(--white);
+  margin: 200px 50px 50px 50px;
+  border-radius: 12px;
+  border: 2px solid var(--gray-15);
+  box-shadow: 6px 6px #1E1E1E;
+  padding: 100px 113px 40px 113px;
+}
+.footer1lvl {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+}
+.footer1lvl__contacts-text {
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  max-width: 520px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.footer1lvl__contacts-list {
+}
+.footer1lvl__contacts-item {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 24px;
+  align-items: center;
+}
+.footer1lvl__contacts-item:last-child {
+  margin: 0;
+}
+.footer1lvl__contacts-icon {
+  padding: 8px;
+  background-color: var(--orange-97);
+  border: 2px solid var(--gray-15);
+  border-radius: 6px;
+}
+.footer1lvl__contacts-email,.footer1lvl__contacts-phone,.footer1lvl__contacts-locate  {
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.footer1lvl__navigation-list {
+  display: flex;
+  gap: 30px;
+}
+.footer1lvl__item {
+}
+.footer1lvl__item-title {
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.footer1lvl__item-links {
+}
+.item__links-link {
+  width: 230px;
+  margin-bottom: 14px;
+}
+.item__links-link:last-child {
+  margin: 0;
+}
+.link {
+  color: var(--gray-20);
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+.footer2lvl {
+  padding: 46px 0;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  border-top: 1px solid var(--gray-15);
+  border-bottom: 1px solid var(--gray-15);
+}
+.footer2lvl__list {
+  display: flex;
+}
+.footer2lvl__item {
+  padding-right: 16px;
+  margin-right: 16px;
+  border-right: 2px solid var(--gray-15);
+}
+.footer2lvl__item:last-child {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+.footer2lvl__item-links {
+  color: var(--gray-20);
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+.footer2lvl__social-list {
+  display: flex;
+  gap: 14px;
+}
+.footer2lvl__social-item {
+}
+.social__item-link {
+  padding: 16px;
+  border-radius: 8px;
+  background-color: var(--orange-90);
+  border: 2px solid var(--gray-15);
+}
+.social__item-icon {
+}
+.footer3lvl__copyright-text {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Outfit", sans-serif;
+  color: var(--gray-40);
+}
