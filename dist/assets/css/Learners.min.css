@@ -1,0 +1,32 @@
+.learners {
+  position: relative;
+  background-color: #fff;
+  border-radius: 12px;
+  border: 2px solid #262626;
+  box-shadow: 8px 8px 0 1px #1e1e1e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  padding: 150px 120px;
+}
+.learners__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.learners__left .learners__left-top {
+  padding: 10px 20px;
+  border: 2px solid #262626;
+  border-radius: 8px;
+  display: inline-block;
+}
+.learners__left .learners__left-title {
+  font-size: 48px;
+  font-weight: 700;
+  width: 750px;
+}
+.learners__text {
+  font-size: 20px;
+  font-weight: 500;
+}

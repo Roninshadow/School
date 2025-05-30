@@ -1,0 +1,62 @@
+.support {
+  margin-top: 200px;
+}
+.support__aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.support__aside .support__aside-top {
+  padding: 10px 20px;
+  border: 2px solid #262626;
+  border-radius: 8px;
+  background-color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+}
+.support__aside .support__aside-title {
+  font-size: 58px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+}
+.support__aside .support__aside-text {
+  font-size: 20px;
+  font-weight: 500;
+  max-width: 1200px;
+  text-align: center;
+}
+.support__cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin-top: 135px;
+}
+.support__cards .support__card {
+  position: relative;
+  padding: 50px;
+  padding-top: 80px;
+  background-color: #fff;
+  border: 2px solid #262626;
+  border-radius: 12px;
+  box-shadow: 6px 6px 0 2px #1e1e1e;
+}
+.support__cards .support__card .support__card-icon {
+  position: absolute;
+  top: -35px;
+  left: 30px;
+  padding: 20px;
+  background-color: #ffdecc;
+  border: 2px solid #262626;
+  border-radius: 12px;
+}
+.support__cards .support__card .support__card-title {
+  font-size: 28px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+}
+.support__cards .support__card .support__card-text {
+  font-size: 20px;
+  font-weight: 500;
+  color: #4c4c4d;
+}

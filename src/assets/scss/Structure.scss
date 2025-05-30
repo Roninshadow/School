@@ -1,0 +1,122 @@
+@use "variables" as *;
+.structure {
+  margin-top: 200px;
+  &__aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    .structure__aside-top {
+      padding: 10px 20px;
+      border: 2px solid $grey-15;
+      border-radius: 8px;
+      background-color: $absolute-white;
+      font-size: 18px;
+      font-weight: 500;
+    }
+    .structure__aside-title {
+      font-size: 58px;
+      font-weight: 700;
+    }
+    .structure__aside-text {
+      font-size: 20px;
+      font-weight: 500;
+      max-width: 1000px;
+      text-align: center;
+    }
+  }
+  &__table-program {
+    padding: 60px;
+    border: 2px solid $grey-15;
+    border-radius: 12px;
+    box-shadow: 6px 6px 0 2px #1e1e1e;
+    margin-top: 100px;
+    background-color: $absolute-white;
+    .table {
+      overflow: hidden;
+      border: 2px solid $grey-15;
+      border-radius: 12px;
+    }
+    .structure__table-list {
+      display: flex;
+      justify-content: space-between;
+      border: 2px solid $grey-15;
+      border-radius: 12px;
+      background-color: $orange-95;
+      margin-bottom: 30px;
+      .structure__table-item {
+        padding: 20px 34px;
+        border-right: 2px solid $grey-15;
+        width: 100%;
+        &:last-child {
+          border: none;
+        }
+        .structure__table-text {
+          font-size: 20px;
+          font-weight: 500;
+        }
+      }
+    }
+    .structure__table {
+      background-color: $orange-99;
+      
+      .structure__table-row {
+        border-bottom: 2px solid $grey-15;
+        &:last-child {
+          border: none;
+        }
+        .structure__table-value {
+          border-right: 2px solid $grey-15;
+          padding: 30px 34px;
+          font-size: 20px;
+          font-weight: 500;
+          width: 295px;
+          &:last-child {
+            border: none;
+          }
+        }
+      }
+    }
+  }
+  &__table-additional {
+    padding: 60px;
+    border: 2px solid $grey-15;
+    border-radius: 12px;
+    box-shadow: 6px 6px 0 2px #1e1e1e;
+    margin-top: 100px;
+    background-color: $absolute-white;
+    .table {
+      overflow: hidden;
+      border: 2px solid $grey-15;
+      border-radius: 12px;
+    }
+    .structure__table-title {
+      font-size: 30px;
+      font-weight: 700;
+      padding: 20px 34px;
+      border-radius: 12px;
+      border: 2px solid $grey-15;
+      background-color: $orange-95;
+      margin-bottom: 30px;
+    }
+    .structure__table {
+      background-color: $orange-99;
+      .structure__table-row {
+        border-bottom: 2px solid $grey-15;
+        &:last-child {
+          border: none;
+        }
+        .structure__table-value {
+          border-right: 2px solid $grey-15;
+          padding: 30px 34px;
+          font-size: 20px;
+          font-weight: 500;
+          width: 295px;
+          &:last-child {
+            border: none;
+          }
+        }
+      }
+    }
+  }
+}

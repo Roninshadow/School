@@ -1,0 +1,122 @@
+@use 'variables' as *;
+.information {
+	margin-top: 200px;
+	&__aside {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		align-items: center;
+		.information__aside-info {
+			padding: 10px 20px;
+			background-color: $absolute-white;
+			border: 2px solid $grey-15;
+			border-radius: 8px;
+			font-size: 18px;
+			font-weight: 500;
+		}
+		.information__aside-title {
+			font-size: 58px;
+			font-weight: 700;
+			font-family: 'Raleway', sans-serif;
+		}
+		.information__aside-text {
+			font-size: 20px;
+			font-weight: 500;
+			max-width: 1000px;
+			text-align: center;
+		}
+	}
+	&__form {
+		position: relative;
+		margin-top: 137px;
+		background-color: $absolute-white;
+		border: 2px solid $grey-15;
+		border-radius: 12px;
+		box-shadow: 8px 8px 0 2px #1e1e1e;
+		padding: 100px;
+		padding-top: 120px;
+		&-buttons {
+			display: flex;
+			justify-content: center;
+			gap: 20px;
+			position: absolute;
+			top: -37px;
+			left: 50%;
+			transform: translate(-50%, 0);
+			.information__form-button {
+				.information__form-icon {
+					padding: 20px 60px;
+					background-color: $orange-90;
+					border-radius: 8px;
+					border: 2px solid $grey-15;
+				}
+			}
+		}
+		&-inputList {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			gap: 50px;
+			.information__form-inputItem {
+				.information__form-top {
+					font-size: 22px;
+					font-weight: 600;
+					margin-bottom: 20px;
+				}
+				.information__form-input {
+					width: 100%;
+					background-color: $orange-99;
+					padding: 30px;
+					border: 2px solid $grey-15;
+					border-radius: 8px;
+				}
+				.select__wrapper {
+          position: relative;
+          &::before {
+            content: url('../images/Arrow.svg');
+            position: absolute;
+            right: 30px;
+            top: 30px;
+            pointer-events: none;
+          }
+					.information__form-select {
+						width: 100%;
+						background-color: $orange-99;
+						padding: 30px;
+						border: 2px solid $grey-15;
+						border-radius: 8px;
+            appearance: none;
+            color: $grey-35;
+            cursor: pointer;
+					}
+				}
+			}
+		}
+		&-message {
+			margin-top: 50px;
+			.information__form-top {
+				font-size: 22px;
+				font-weight: 600;
+				margin-bottom: 20px;
+			}
+			.information__form-input {
+				width: 100%;
+				background-color: $orange-99;
+				padding: 30px;
+				border: 2px solid $grey-15;
+				border-radius: 8px;
+				resize: vertical;
+				min-height: 220px;
+			}
+		}
+		&-submit {
+			width: 100%;
+			background-color: $orange-75;
+			border: 2px solid $grey-15;
+			border-radius: 12px;
+			padding: 30px 34px;
+			font-size: 24px;
+			font-weight: 500;
+			margin-top: 50px;
+		}
+	}
+}

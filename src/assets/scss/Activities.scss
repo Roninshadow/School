@@ -1,0 +1,64 @@
+@use "variables" as *;
+.activities {
+  margin-top: 200px;
+  &__aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 135px;
+    .activities__aside-top {
+      padding: 10px 20px;
+      border: 2px solid $grey-15;
+      border-radius: 8px;
+      font-size: 18px;
+      font-weight: 500;
+      background-color: $absolute-white;
+    }
+    .activities__aside-title {
+      font-size: 58px;
+      font-weight: 700;
+      font-family: "Raleway", sans-serif;
+    }
+    .activities__aside-text {
+      font-size: 20px;
+      font-weight: 500;
+      text-align: center;
+      max-width: 1000px;
+    }
+  }
+  &__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    row-gap: 85px;
+    .activities__card {
+      padding: 50px;
+      padding-top: 80px;
+      background-color: $absolute-white;
+      border: 2px solid $grey-15;
+      border-radius: 12px;
+      box-shadow: 6px 6px 0 2px #1e1e1e;
+      position: relative;
+      .activities__card-icon {
+        position: absolute;
+        top: -35px;
+        left: 30px;
+        background-color: $orange-90;
+        border: 2px solid $grey-15;
+        border-radius: 12px;
+        padding: 20px;
+      }
+      .activities__card-title {
+        font-size: 28px;
+        font-weight: 700;
+        font-family: "Raleway", sans-serif;
+        margin-bottom: 20px;
+      }
+      .activities__card-text {
+        font-size: 20px;
+        font-weight: 500;
+      } 
+    }
+  }
+}

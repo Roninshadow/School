@@ -1,0 +1,68 @@
+@use "variables" as *;
+.benefits {
+  margin-top: 150px;
+  
+  .benefits__aside-top {
+    text-align: center;
+    
+    .benefits__aside {
+      padding: 10px 20px;
+      background-color: $absolute-white;
+      border-radius: 8px;
+      border: 2px solid $grey-15;
+      display: inline-block;
+    }
+    .benefits__title {
+      font-size: 58px;
+      font-weight: 700;
+      text-align: center;
+      margin-top: 20px;
+      font-family: "Raleway", sans-serif;
+    }
+    .benefits__subtitle {
+      font-size: 20px;
+      font-weight: 500;
+      color: $grey-20;
+      text-align: center;
+      margin-top: 20px;
+      padding: 0 300px;
+    }
+  }
+  .benefits__cards {
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    gap: 40px;
+    row-gap: 85px;
+    margin-top: 135px;
+
+    .benefits__card {
+      padding: 80px 50px 50px;
+      background-color: $absolute-white;
+      border-radius: 12px;
+      border: 2px solid $grey-15;
+      box-shadow: 6px 6px 0px 2px #1E1E1E;
+      position: relative;
+
+      .benefits__card-icon {
+        padding: 20px;
+        border-radius: 12px;
+        background-color: $orange-90;
+        border: 2px solid $grey-15;
+        position: absolute;
+        top: -35px;
+        left: 30px;
+      }
+      .benefits__card-title {
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
+      .benefits__card-text {
+        font-size: 20px;
+        font-weight: 500;
+        color: $grey-30;
+      }
+    }
+  }
+}
+

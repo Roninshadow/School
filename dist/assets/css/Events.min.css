@@ -1,0 +1,67 @@
+.events {
+  margin-top: 200px;
+}
+.events__aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.events__aside .events__aside-top {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 2px solid #262626;
+  background-color: #fff;
+}
+.events__aside .events__aside-title {
+  font-size: 58px;
+  font-weight: 800;
+  font-family: "Raleway", sans-serif;
+}
+.events__aside .events__aside-text {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  max-width: 1000px;
+}
+.events__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+}
+.events__cards .events__card {
+  padding: 50px;
+  background-color: #fff;
+  border: 2px solid #262626;
+  border-radius: 12px;
+  box-shadow: 6px 6px 0 2px #1e1e1e;
+  position: relative;
+}
+.events__cards .events__card::before {
+  content: "";
+  position: absolute;
+  top: 155px;
+  left: -2px;
+  width: 493px;
+  height: 90px;
+  background-color: #ffefe5;
+  border: 2px solid #262626;
+  z-index: 1;
+}
+.events__cards .events__card .events__card-image {
+  position: relative;
+  border-radius: 12px;
+  border: 2px solid #262626;
+  z-index: 2;
+}
+.events__cards .events__card .events__card-title {
+  font-size: 28px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+.events__cards .events__card .events__card-text {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}

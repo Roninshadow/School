@@ -1,0 +1,120 @@
+.structure {
+  margin-top: 200px;
+}
+.structure__aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.structure__aside .structure__aside-top {
+  padding: 10px 20px;
+  border: 2px solid #262626;
+  border-radius: 8px;
+  background-color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+}
+.structure__aside .structure__aside-title {
+  font-size: 58px;
+  font-weight: 700;
+}
+.structure__aside .structure__aside-text {
+  font-size: 20px;
+  font-weight: 500;
+  max-width: 1000px;
+  text-align: center;
+}
+.structure__table-program {
+  padding: 60px;
+  border: 2px solid #262626;
+  border-radius: 12px;
+  box-shadow: 6px 6px 0 2px #1e1e1e;
+  margin-top: 100px;
+  background-color: #fff;
+}
+.structure__table-program .table {
+  overflow: hidden;
+  border: 2px solid #262626;
+  border-radius: 12px;
+}
+.structure__table-program .structure__table-list {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #262626;
+  border-radius: 12px;
+  background-color: #ffefe5;
+  margin-bottom: 30px;
+}
+.structure__table-program .structure__table-list .structure__table-item {
+  padding: 20px 34px;
+  border-right: 2px solid #262626;
+  width: 100%;
+}
+.structure__table-program .structure__table-list .structure__table-item:last-child {
+  border: none;
+}
+.structure__table-program .structure__table-list .structure__table-item .structure__table-text {
+  font-size: 20px;
+  font-weight: 500;
+}
+.structure__table-program .structure__table {
+  background-color: #fffcfa;
+}
+.structure__table-program .structure__table .structure__table-row {
+  border-bottom: 2px solid #262626;
+}
+.structure__table-program .structure__table .structure__table-row:last-child {
+  border: none;
+}
+.structure__table-program .structure__table .structure__table-row .structure__table-value {
+  border-right: 2px solid #262626;
+  padding: 30px 34px;
+  font-size: 20px;
+  font-weight: 500;
+  width: 295px;
+}
+.structure__table-program .structure__table .structure__table-row .structure__table-value:last-child {
+  border: none;
+}
+.structure__table-additional {
+  padding: 60px;
+  border: 2px solid #262626;
+  border-radius: 12px;
+  box-shadow: 6px 6px 0 2px #1e1e1e;
+  margin-top: 100px;
+  background-color: #fff;
+}
+.structure__table-additional .table {
+  overflow: hidden;
+  border: 2px solid #262626;
+  border-radius: 12px;
+}
+.structure__table-additional .structure__table-title {
+  font-size: 30px;
+  font-weight: 700;
+  padding: 20px 34px;
+  border-radius: 12px;
+  border: 2px solid #262626;
+  background-color: #ffefe5;
+  margin-bottom: 30px;
+}
+.structure__table-additional .structure__table {
+  background-color: #fffcfa;
+}
+.structure__table-additional .structure__table .structure__table-row {
+  border-bottom: 2px solid #262626;
+}
+.structure__table-additional .structure__table .structure__table-row:last-child {
+  border: none;
+}
+.structure__table-additional .structure__table .structure__table-row .structure__table-value {
+  border-right: 2px solid #262626;
+  padding: 30px 34px;
+  font-size: 20px;
+  font-weight: 500;
+  width: 295px;
+}
+.structure__table-additional .structure__table .structure__table-row .structure__table-value:last-child {
+  border: none;
+}

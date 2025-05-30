@@ -1,0 +1,101 @@
+@use 'variables' as *;
+.gallery {
+	margin-top: 200px;
+	&__aside {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		.gallery__aside-top {
+			padding: 10px 20px;
+			background-color: $absolute-white;
+			border: 2px solid $grey-15;
+			border-radius: 8px;
+			font-size: 18px;
+			font-weight: 500;
+		}
+		.gallery__aside-title {
+			font-size: 58px;
+			font-weight: 700;
+			font-family: 'Raleway', sans-serif;
+		}
+		.gallery__aside-text {
+			font-size: 20px;
+			font-weight: 500;
+			max-width: 1000px;
+			text-align: center;
+		}
+		&-list {
+			display: flex;
+			justify-content: center;
+			gap: 15px;
+			.gallery__aside-item {
+				padding: 14px 20px;
+				background-color: $absolute-white;
+				border: 2px solid $grey-15;
+				border-radius: 8px;
+        cursor: pointer;
+				.gallery__aside-category {
+					font-size: 20px;
+					font-weight: 600;
+				}
+				&.active {
+					background-color: $orange-95;
+				}
+			}
+		}
+	}
+	&__classes {
+    margin-top: 295px;
+		.gallery__class {
+			position: relative;
+			padding: 50px;
+			padding-top: 200px;
+			background-color: $absolute-white;
+			border: 2px solid $grey-15;
+			border-radius: 12px;
+			box-shadow: 6px 6px 0 2px #1e1e1e;
+      margin-bottom: 295px;
+			.gallery__class-images {
+				display: flex;
+				gap: 50px;
+				max-width: 1496px;
+				position: absolute;
+				top: -145px;
+				left: 50px;
+				overflow: hidden;
+				.gallery__class-image {
+					img {
+						min-width: 335px;
+						border: 2px solid $grey-15;
+						border-radius: 12px;
+					}
+				}
+			}
+			.gallery__class-top {
+				display: flex;
+				justify-content: space-between;
+        margin-bottom: 40px;
+				.gallery__class-title {
+					font-family: 'Raleway', sans-serif;
+					font-size: 40px;
+					font-weight: 700;
+				}
+				.gallery__class-buttons {
+					display: flex;
+					gap: 20px;
+					.gallery__class-button {
+						.gallery-class-arrow {
+							padding: 14px;
+							border: 2px solid $grey-15;
+							border-radius: 8px;
+						}
+					}
+				}
+			}
+			.gallery__class-text {
+				font-size: 22px;
+				font-weight: 500;
+			}
+		}
+	}
+}

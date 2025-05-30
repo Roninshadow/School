@@ -1,0 +1,61 @@
+.hero {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.hero .hero__content .hero__topText {
+    font-size: 22px;
+    font-weight: 500;
+    color: #262626;
+    border-bottom: 2px solid #262626;
+    max-width: 360px;
+    padding-bottom: 6px;
+}
+
+.hero .hero__content .hero__title {
+    font-size: 54px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    font-family: "Raleway", sans-serif;
+}
+
+.hero .hero__content .hero__title .span-text {
+    color: #ff8d4d;
+}
+
+.hero .hero__content .hero__text {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.hero .hero__content .hero__characteristics-list {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 13px;
+    margin-top: 60px;
+    padding: 24px 50px;
+    box-shadow: 8px 8px 0px 1px #FFBE99;
+    border-radius: 12px;
+    border: 2px solid #262626;
+    background-color: #ffefe5;
+}
+
+.hero .hero__content .hero__characteristics-list .hero__characteristics-item {
+    width: 213px;
+}
+
+.hero .hero__content .hero__characteristics-list .hero__characteristics-title {
+    font-size: 44px;
+    font-weight: 800;
+}
+
+.hero .hero__content .hero__characteristics-list .hero__characteristics-subtitle {
+    font-size: 18px;
+    color: #262626;
+    font-weight: 500;
+}

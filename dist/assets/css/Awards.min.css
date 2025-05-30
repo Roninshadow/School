@@ -1,0 +1,80 @@
+.awards {
+  margin-top: 200px;
+}
+.awards__aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.awards__aside .awards__aside-top {
+  padding: 10px 20px;
+  border: 2px solid #262626;
+  border-radius: 8px;
+  background-color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+}
+.awards__aside .awards__aside-title {
+  font-size: 58px;
+  font-weight: 700;
+  margin-top: 20px;
+  font-family: "Raleway", sans-serif;
+}
+.awards__aside .awards__aside-text {
+  font-size: 20px;
+  font-weight: 500;
+  max-width: 1200px;
+  text-align: center;
+}
+.awards__cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 135px;
+}
+.awards__cards .awards__card {
+  padding: 80px 50px 50px 50px;
+  background-color: #fff;
+  border: 2px solid #262626;
+  border-radius: 12px;
+  box-shadow: 6px 6px 0 2px #1E1E1E;
+  position: relative;
+  width: 100%;
+}
+.awards__cards .awards__card .awards__card-icon {
+  position: absolute;
+  padding: 20px;
+  background-color: #ffdecc;
+  border-radius: 12px;
+  border: 2px solid #262626;
+  top: -35px;
+  left: 30px;
+}
+.awards__cards .awards__card .awards__card-title {
+  font-size: 28px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+}
+.awards__cards .awards__card .awards__card-text {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #4c4c4d;
+}
+.awards__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+.awards__bottom .awards__bottom-text {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+.awards__bottom .awards__bottom-buttons .awards__bottom-button .awards__bottom-icon {
+  padding: 14px;
+  background-color: #fff;
+  border: 2px solid #262626;
+  border-radius: 8px;
+}

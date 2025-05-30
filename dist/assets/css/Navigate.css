@@ -1,0 +1,83 @@
+.navigate {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.navigate .navigate__aside {
+    text-align: center;
+}
+
+.navigate .navigate__aside .navigate__aside-text {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 2px solid #262626;
+}
+
+.navigate .navigate__title {
+    text-align: center;
+    font-size: 58px;
+    font-weight: 700;
+    margin-top: 20px;
+    font-family: "Raleway", sans-serif;
+}
+
+.navigate .navigate__subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding: 0 300px;
+}
+
+.navigate .navigate__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.navigate .navigate__cards .navigate__card {
+    padding: 80px;
+    border-radius: 12px;
+    border: 2px solid #262626;
+    box-shadow: 6px 6px 0 2px #262626;
+}
+
+.navigate .navigate__cards .navigate__card .navigate__card-title {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.navigate .navigate__cards .navigate__card .navigate__card-line {
+    margin-bottom: 30px;
+}
+
+.navigate .navigate__cards .navigate__card .navigate__card-text {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: #4c4c4d;
+}
+
+.navigate .navigate__cards .navigate__card .navigate__card-button {
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 18px 0;
+    background-color: #ffdecc;
+    border: 2px solid #262626;
+    box-shadow: 4px 4px 0 2px #262626;
+    border-radius: 10px;
+    margin-top: 80px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+}

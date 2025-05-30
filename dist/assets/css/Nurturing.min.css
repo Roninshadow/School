@@ -1,0 +1,33 @@
+.nurturing {
+  padding: 150px 120px;
+  background-color: #fff;
+  border: 2px solid #262626;
+  border-radius: 12px;
+  box-shadow: 8px 8px 0 2px #1e1e1e;
+  position: relative;
+  display: flex;
+  gap: 50px;
+}
+.nurturing__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.nurturing__left .nurturing__aside {
+  padding: 10px 20px;
+  border: 2px solid #262626;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  display: inline-block;
+}
+.nurturing__left .nurturing__title {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+}
+.nurturing__text {
+  font-size: 20px;
+  font-weight: 500;
+  width: 765px;
+}

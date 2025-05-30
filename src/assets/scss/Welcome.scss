@@ -1,0 +1,40 @@
+@use "variables" as *;
+.welcome {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 150px 120px;
+  position: relative;
+  background-color: $absolute-white;
+  border-radius: 12px;
+  border: 2px solid $grey-15;
+  box-shadow: 8px 8px 0 1px #1E1E1E;
+  margin-top: 100px;
+  
+  .welcome__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .welcome__left {
+    .welcome__info {
+      padding: 10px 20px;
+      border-radius: 8px;
+      border: 2px solid $grey-15;
+      display: inline-block;
+      font-size: 18px;
+      font-weight: 500;
+    }
+    .welcome__title {
+      font-size: 48px;
+      font-weight: 700;
+      width: 765px;
+      font-family: "Raleway", sans-serif;
+    }
+  }
+  .welcome__text {
+    font-size: 20px;
+    font-weight: 500;
+  }
+}

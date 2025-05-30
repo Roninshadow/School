@@ -1,0 +1,44 @@
+@use "variables" as *;
+@use "sass:meta";
+@use "reset";
+body {
+    background-color: $orange-97;
+    font-size: 20px;
+    color: $grey-20;
+    font-family: "Outfit", sans-serif;
+}
+.container-1590 {
+    max-width: 1590px;
+    margin: 0 auto;
+}
+.container-1820 {
+    max-width: 1820px;
+    margin: 0 auto;
+}
+
+@include meta.load-css("Activities");
+@include meta.load-css("Awards");
+@include meta.load-css("Benefits");
+@include meta.load-css("Connect");
+@include meta.load-css("Discovery");
+@include meta.load-css("Events");
+@include meta.load-css("Faq");
+@include meta.load-css("Features");
+@include meta.load-css("Gallery");
+@include meta.load-css("hero");
+@include meta.load-css("History");
+@include meta.load-css("Information");
+@include meta.load-css("Learn");
+@include meta.load-css("Learners");
+@include meta.load-css("Members");
+@include meta.load-css("Mission");
+@include meta.load-css("Navigate");
+@include meta.load-css("Nurturing");
+@include meta.load-css("Process");
+@include meta.load-css("Structure");
+@include meta.load-css("Support");
+@include meta.load-css("Testimonials");
+@include meta.load-css("Welcome");
+@include meta.load-css("header");
+@include meta.load-css("footer");
+// font-family: "Raleway", sans-serif;

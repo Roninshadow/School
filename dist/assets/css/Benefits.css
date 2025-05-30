@@ -1,0 +1,71 @@
+.benefits {
+    margin-top: 150px;
+}
+
+.benefits .benefits__aside-top {
+    text-align: center;
+}
+
+.benefits .benefits__aside-top .benefits__aside {
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 2px solid #262626;
+    display: inline-block;
+}
+
+.benefits .benefits__aside-top .benefits__title {
+    font-size: 58px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Raleway", sans-serif;
+}
+
+.benefits .benefits__aside-top .benefits__subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    padding: 0 300px;
+}
+
+.benefits .benefits__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 40px;
+    row-gap: 85px;
+    margin-top: 135px;
+}
+
+.benefits .benefits__cards .benefits__card {
+    padding: 80px 50px 50px;
+    background-color: #fff;
+    border-radius: 12px;
+    border: 2px solid #262626;
+    box-shadow: 6px 6px 0px 2px #1E1E1E;
+    position: relative;
+}
+
+.benefits .benefits__cards .benefits__card .benefits__card-icon {
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #ffdecc;
+    border: 2px solid #262626;
+    position: absolute;
+    top: -35px;
+    left: 30px;
+}
+
+.benefits .benefits__cards .benefits__card .benefits__card-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.benefits .benefits__cards .benefits__card .benefits__card-text {
+    font-size: 20px;
+    font-weight: 500;
+    color: #4c4c4d;
+}

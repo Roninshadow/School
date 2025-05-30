@@ -1,0 +1,54 @@
+@use "variables" as *;
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  .hero__content {
+    .hero__topText {
+      font-size: 22px;
+      font-weight: 500;
+      color: $grey-15;
+      border-bottom: 2px solid $grey-15;
+      max-width: 360px;
+      padding-bottom: 6px;
+    }
+    .hero__title {
+      font-size: 54px;
+      font-weight: 800;
+      margin-bottom: 30px;
+      font-family: "Raleway", sans-serif;
+
+      .span-text {
+        color: $orange-65;
+      }
+    }
+    .hero__text {
+      font-size: 20px;
+      font-weight: 500;
+    }
+    .hero__characteristics-list {
+      display: flex;
+      align-items: center;
+      gap: 13px;
+      margin-top: 60px;
+      padding: 24px 50px;
+      box-shadow: 8px 8px 0px 1px #FFBE99;
+      border-radius: 12px;
+      border: 2px solid $grey-15;
+      background-color: $orange-95;
+      .hero__characteristics-item {
+        width: 213px;
+      }
+      .hero__characteristics-title {
+        font-size: 44px;
+        font-weight: 800;
+      }
+      .hero__characteristics-subtitle {
+        font-size: 18px;
+        color: $grey-15;
+        font-weight: 500;
+      }
+    }
+   
+  }
+}

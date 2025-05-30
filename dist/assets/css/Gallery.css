@@ -1,0 +1,122 @@
+.gallery {
+    margin-top: 200px;
+}
+
+.gallery__aside {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.gallery__aside .gallery__aside-top {
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 2px solid #262626;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.gallery__aside .gallery__aside-title {
+    font-size: 58px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+}
+
+.gallery__aside .gallery__aside-text {
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.gallery__aside-list {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.gallery__aside-list .gallery__aside-item {
+    padding: 14px 20px;
+    background-color: #fff;
+    border: 2px solid #262626;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.gallery__aside-list .gallery__aside-item .gallery__aside-category {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.gallery__aside-list .gallery__aside-item.active {
+    background-color: #ffefe5;
+}
+
+.gallery__classes {
+    margin-top: 295px;
+}
+
+.gallery__classes .gallery__class {
+    position: relative;
+    padding: 50px;
+    padding-top: 200px;
+    background-color: #fff;
+    border: 2px solid #262626;
+    border-radius: 12px;
+    box-shadow: 6px 6px 0 2px #1e1e1e;
+    margin-bottom: 295px;
+}
+
+.gallery__classes .gallery__class .gallery__class-images {
+    display: -ms-flexbox;
+    display: flex;
+    gap: 50px;
+    max-width: 1496px;
+    position: absolute;
+    top: -145px;
+    left: 50px;
+    overflow: hidden;
+}
+
+.gallery__classes .gallery__class .gallery__class-images .gallery__class-image img {
+    min-width: 335px;
+    border: 2px solid #262626;
+    border-radius: 12px;
+}
+
+.gallery__classes .gallery__class .gallery__class-top {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.gallery__classes .gallery__class .gallery__class-top .gallery__class-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.gallery__classes .gallery__class .gallery__class-top .gallery__class-buttons {
+    display: -ms-flexbox;
+    display: flex;
+    gap: 20px;
+}
+
+.gallery__classes .gallery__class .gallery__class-top .gallery__class-buttons .gallery__class-button .gallery-class-arrow {
+    padding: 14px;
+    border: 2px solid #262626;
+    border-radius: 8px;
+}
+
+.gallery__classes .gallery__class .gallery__class-text {
+    font-size: 22px;
+    font-weight: 500;
+}

@@ -1,0 +1,34 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid #262626;
+  border-radius: 12px;
+  margin-top: 20px;
+  background-color: #fff;
+  overflow: hidden;
+  margin-bottom: 150px;
+}
+.header .header__logo {
+  padding: 17.5px 34px;
+  border-right: 2px solid #262626;
+  max-width: 230px;
+  background-color: #ff8d4d;
+}
+.header .header__nav-list {
+  display: flex;
+  align-items: center;
+}
+.header .header__nav-list .heder__nav-item {
+  padding: 20px 34px;
+  border-left: 2px solid #262626;
+}
+.header .header__nav-list .heder__nav-item .header__nav-link {
+  color: #262626;
+}
+.header .header__nav-list .contact-nav {
+  background-color: #ffae80;
+}
+.header .header__nav-list .active {
+  background-color: #ffefe5;
+}

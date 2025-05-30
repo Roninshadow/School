@@ -1,0 +1,36 @@
+@use "variables" as *;
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid $grey-15;
+  border-radius: 12px;
+  margin-top: 20px;
+  background-color: $absolute-white;
+  overflow: hidden;
+  margin-bottom: 150px;
+  .header__logo {
+    padding: 17.5px 34px;
+    border-right: 2px solid $grey-15;
+    max-width: 230px;
+    background-color: $orange-65;
+  }
+  .header__nav-list {
+    display: flex;
+    align-items: center;
+    .heder__nav-item {
+      padding: 20px 34px;
+      border-left: 2px solid $grey-15;
+      .header__nav-link {
+        color: $grey-15;
+      }
+    }
+    .contact-nav {
+      background-color: $orange-75;
+    }
+    .active {
+      background-color: $orange-95;
+    }
+  }
+}
+

@@ -1,0 +1,101 @@
+@use "variables" as *;
+.faq {
+  margin-top: 150px;
+  .faq__aside {
+    text-align: center;
+
+    .faq__aside-text {
+      font-size: 18px;
+      font-weight: 500;
+      padding: 10px 20px;
+      background-color: $absolute-white;
+      border-radius: 8px;
+      border: 2px solid $grey-15;
+      display: inline-block;
+    }
+  }
+  .faq__title {
+    font-size: 58px;
+    font-weight: 700;
+    color: $grey-10;
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Raleway", sans-serif;
+  }
+  .faq__subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding: 0 300px;
+    margin-top: 20px;
+  }
+  .faq__cards {
+    margin-top: 100px;
+  }
+  .faq__card {
+    width: 100%;
+    padding: 34px 40px;
+    background-color: $orange-95;
+    border: 2px solid $grey-15;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    &:last-child {
+      margin: 0;
+    }
+    .faq__card-top {
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 30px;
+    }
+    .faq__card-question {
+      font-size: 22px;
+      font-weight: 600;
+      width: 100%;
+    }
+    .faq__card-plus {
+      width: 40px;
+      height: 40px;
+      position: relative;
+      background-color: $orange-97;
+      border-radius: 6px;
+      border: 2px solid $grey-15;
+      &::before,
+      &::after {
+        content: '';
+        position: absolute;
+        background-color: black;
+        width: 16px;
+        height: 2px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      &::after {
+        transform: translateY(-50%) translateX(-50%) rotate(90deg);
+      }
+    }
+    .faq__card-answer {
+      max-height: 0;
+      overflow: hidden;
+    }
+  }
+  .active__card {
+    .faq__card-plus {
+      &:after {
+        transform: translateY(-50%) translateX(-50%) rotate(0);
+      }
+    }
+    .faq__card-answer {
+      max-height: 500px;
+      width: 100%;
+      margin-top: 25px;
+    }
+    .faq__card-question {
+      border-bottom: 2px solid $grey-15;
+      padding-bottom: 25px;
+    }
+    background-color: $absolute-white;
+  }
+}
